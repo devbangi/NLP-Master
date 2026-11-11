@@ -1,2 +1,2 @@
 # NLP-Master
-Natural Language Processing - Master's Laboratories and Final Project
+Natural Language Processing - Master's laboratories and final project
