@@ -219,3 +219,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ========================================
+# MultiEURLEX - fisiere locale
+# ========================================
+
+# Dataset: date brute si procesate
+/Project_multi_eurlex/data/
+/Project_multi_eurlex/Data/
+
+# Modele antrenate si checkpoint-uri
+/Project_multi_eurlex/Models/
+
+# Predictii brute generate de modele
+/Project_multi_eurlex/Results/*.npz
+/Project_multi_eurlex/results/*.npz
+
+# Cache si fisiere temporare Jupyter
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/*.pyc
+
+# Medii virtuale Python
+.venv/
+.venv311/
+venv/
+
