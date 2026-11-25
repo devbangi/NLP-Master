@@ -1,0 +1,14 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "method": "Few-shot + TF-IDF retrieval",
+  "quantization": "NF4 4-bit",
+  "few_shot_examples": 6,
+  "retrieval": "TF-IDF cosine similarity",
+  "document_max_chars": 2000,
+  "example_max_chars": 1000,
+  "test_documents": 5000,
+  "test_micro_f1": 0.7468,
+  "test_macro_f1": 0.6433,
+  "test_inference_seconds": 51039.1,
+  "predictions_file": "qwen3_rag_test_predictions.csv"
+}

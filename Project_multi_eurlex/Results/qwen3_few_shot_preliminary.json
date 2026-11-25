@@ -1,0 +1,28 @@
+{
+  "model": "Qwen/Qwen3-4B-Instruct-2507",
+  "quantization": "4-bit NF4",
+  "dataset": "MultiEURLEX Romanian",
+  "validation_sample_size": 50,
+  "validation_sample_random_state": 42,
+  "max_document_chars": 2000,
+  "max_example_chars": 1000,
+  "max_new_tokens": 160,
+  "experiments": {
+    "3_shot": {
+      "micro_f1": 0.5521126760563381,
+      "macro_f1": 0.3492276794046395
+    },
+    "6_shot": {
+      "micro_f1": 0.5558441558441558,
+      "macro_f1": 0.46515255869277106,
+      "selected_train_indices": [
+        2443,
+        222,
+        15014,
+        1091,
+        0,
+        1
+      ]
+    }
+  }
+}
